@@ -4,6 +4,8 @@
     ],
     "compilerOptions": {
         "strict": true,
+        // 暗黙anyを許可する
+        "noImplicitAny": false,
         "esModuleInterop": true,
         "lib": [
             "dom",
